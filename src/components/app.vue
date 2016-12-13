@@ -1,7 +1,6 @@
 <template>
-  <div class='content'>
-    {{ content }}
-  </div>
+  Hello world!
+  <Header></Header>
 </template>
 
 <script>

@@ -1,9 +1,7 @@
 import Vue from 'vue';
-// import App from './components/app.vue';
-
-const App = { template: '<p>hi...</p>' };
+import App from './components/App.vue';
 
 new Vue({
-  el: 'app',
-  components: { App },
+  el: '#app',
+  render: c => c(App),
 });

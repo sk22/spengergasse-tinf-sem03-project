@@ -3,5 +3,6 @@ import App from './components/App.vue';
 
 new Vue({
   el: '#app',
+  components: { App },
   render: c => c(App),
 });
